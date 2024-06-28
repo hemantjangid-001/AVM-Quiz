@@ -1,0 +1,37 @@
+.pyramid-container {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moneyList {
+  list-style: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.moneyListItem {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.moneyListItemNumber {
+  font-size: 16px;
+  font-weight: 100;
+  width: 30%;
+}
+
+.moneyListItemAmount {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.moneyListItem.active,
+.moneyListItem:hover {
+  background: teal;
+  transition: all 0.3s ease;
+}
